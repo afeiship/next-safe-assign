@@ -3,7 +3,7 @@
  * description: Safe assign for next.
  * url: https://github.com/afeiship/next-safe-assign
  * version: 1.0.0
- * date: 2020-01-15 19:38:29
+ * date: 2020-01-15 19:39:32
  * license: MIT
  */
 
