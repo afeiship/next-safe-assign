@@ -2,8 +2,8 @@
  * name: @feizheng/next-safe-assign
  * description: Safe assign for next.
  * url: https://github.com/afeiship/next-safe-assign
- * version: 1.0.0
- * date: 2020-01-15 19:39:32
+ * version: 1.0.2
+ * date: 2020-03-27 15:04:57
  * license: MIT
  */
 

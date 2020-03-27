@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-safe-assign",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Safe assign for next.",
   "homepage": "https://github.com/afeiship/next-safe-assign",
   "author": {
@@ -34,7 +34,7 @@
     "yargs": "^15.1.0"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.1"
+    "@feizheng/next-js-core2": "^2.4.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
