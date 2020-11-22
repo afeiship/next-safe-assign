@@ -27,6 +27,9 @@ const res = safeAssign(
 // { a: '', b: 2, c: 2 }
 ```
 
+## resources
+- https://github.com/zmen/safe-assign
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-safe-assign/blob/master/LICENSE.txt).
 
