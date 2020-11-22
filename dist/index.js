@@ -1,22 +1,22 @@
 /*!
- * name: @feizheng/next-safe-assign
+ * name: @jswork/next-safe-assign
  * description: Safe assign for next.
- * url: https://github.com/afeiship/next-safe-assign
- * version: 1.0.2
- * date: 2020-03-27 15:04:57
+ * homepage: https://github.com/afeiship/next-safe-assign
+ * version: 1.0.0
+ * date: 2020-11-22 14:59:42
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var FUNC = 'function';
   var OBJECT = 'object';
-  var IGNORE_VALUE = function(key, value) {
+  var IGNORE_VALUE = function (key, value) {
     return value == null || value === '';
   };
 
-  nx.safeAssign = function() {
+  nx.safeAssign = function () {
     var args = nx.slice(arguments);
     var length = args.length;
     var len_ = length - 1;
@@ -30,7 +30,7 @@
       if (value != null && typeof value !== OBJECT) {
         throw new Error('source can not be primitives');
       }
-      nx.forIn(value, function(key, value) {
+      nx.forIn(value, function (key, value) {
         if (!ignore(key, value)) {
           target[key] = value;
         }
@@ -43,5 +43,3 @@
     module.exports = nx.safeAssign;
   }
 })();
-
-//# sourceMappingURL=next-safe-assign.js.map
